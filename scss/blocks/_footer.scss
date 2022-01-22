@@ -1,0 +1,144 @@
+.footer{
+    background-color: #2C343E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 47px 85px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+ }
+ 
+ 
+ .footer__list{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    margin-left: 105px;
+    margin-right: auto;
+    padding: 0px;
+ }
+ 
+ .footer__item:nth-child(2){
+    margin: 0px 32px;
+ }
+ 
+ .footer__link{
+    text-decoration: none;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #83888F;
+ }
+ 
+ .footer__link:hover{
+    color:#FEFCF7;
+ }
+ 
+ 
+ .footer__icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ .icons__link:nth-child(2){
+    margin: 0 24px;
+ }
+ 
+ 
+ .icons__social-network-logo {
+   fill: #fff;
+ }
+ 
+ .icons__social-network-logo:hover {
+   fill: #fdd6ba;
+ }
+
+
+
+
+
+@media only screen and (max-width:768px){
+
+   .footer{
+      width: 688px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+   }
+
+   .footer__logo{
+      margin-bottom: 34px;
+   }
+
+   .footer__list{
+      margin: 0 auto;
+      margin-bottom: 65px;
+   }
+}
+
+
+@media only screen and (max-width:375px){
+
+   .footer{
+      width: 100%;
+      max-width: 327px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+   }
+
+   .footer__logo{
+      margin: 0;
+   }
+
+   .footer__list{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 50px auto;
+      padding: 0;
+   }
+
+   .footer__item:nth-child(2){
+      margin: 24px 0;
+   }
+}
+ 
+
+
+
+@media only screen and (max-width:320px){
+
+   .footer{
+      width: 100%;
+      max-width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+   }
+
+   .footer__logo{
+      margin: 0;
+   }
+
+   .footer__list{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 50px auto;
+      padding: 0;
+   }
+
+   .footer__item:nth-child(2){
+      margin: 24px 0;
+   }
+}

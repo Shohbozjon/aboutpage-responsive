@@ -1,0 +1,202 @@
+.site-header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ .site-header__logo{
+     margin-top: 44px;
+     margin-right: 0;
+     margin-bottom: 45px;
+     margin-left: 0;
+     vertical-align: middle;
+  }
+  
+  .nav{
+     display: flex;
+  }
+  
+  .nav__list{
+     display: flex;
+     list-style: none;
+     margin: 0;
+     vertical-align: middle;
+  }
+  
+  .nav__item{
+     margin-left: 33px; 
+ 
+  }
+  
+  .nav__link{
+     text-decoration: none;
+     font-family: $main-font-family;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 12px;
+     line-height: 15px;
+     color: #83888F;
+  }
+  
+  .nav__link:hover{
+     font-family: $main-font-family;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 12px;
+     line-height: 15px;
+     color: #333D4B;
+  }
+
+
+   .site-header__hamburg-btn{
+      width: 16px;
+      height: 15px;
+      background-color: transparent;
+      border: none;
+      margin: 0;
+      padding: 0;
+      display: none;
+   }
+
+   @media only screen and (max-width:768px){
+
+      .container{
+         width: 100%;
+         width: 768px;
+         margin: 0 auto;
+         padding: 0;
+      }
+   
+      .site-header__wrapper{
+         width: 689px;
+         margin: 0 auto;
+         padding: 0;
+         
+      }
+   
+      .site-header__logo{
+         margin-bottom: 41px;
+      }
+       
+      .nav__list{
+         display: flex;
+      }
+
+     }
+   
+   
+
+
+  @media only screen and (max-width:375px){
+
+   .container{
+      width: 100%;
+      width: 375px;
+      margin: 0 auto;
+      padding: 0;
+   }
+
+   .site-header__wrapper{
+      width: 327px;
+      margin: 0 auto;
+      padding: 0;
+      
+   }
+
+   .site-header__logo{
+      margin-bottom: 41px;
+   }
+    
+   .nav__list{
+      display: none;
+   }
+
+   .site-header__hamburg-btn{
+      display: block;
+   }
+
+  }
+
+
+
+  @media only screen and (max-width:320px){
+
+   .container{
+      width: 100%;
+      width: 320px;
+      margin: 0 auto;
+      padding: 0;
+   }
+
+   .site-header__wrapper{
+      width: 300px;
+      margin: 0 auto;
+      padding: 0;
+      
+   }
+
+   .site-header__logo{
+      margin-bottom: 41px;
+   }
+    
+   .nav__list{
+      display: none;
+   }
+
+   .site-header__hamburg-btn{
+      display: block;
+   }
+
+  }
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
